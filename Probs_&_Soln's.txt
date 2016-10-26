@@ -1,3 +1,10 @@
+=======================================================================================
+//To generate Keys for github repo vaibhav
+Open puttygen and click Generate.
+Copy the public key to clipboard.
+Go to your GitHub account, open the Account settings menu and navigate to the SSH Keys section. There you need to paste your public key.
+Add a strong key passphrase for securing your private key usage and click “Save the private key”.
+================================================================================================
 1)Installing mongo
 Error: Cannot start server. The default storage engine 'wiredTiger' is not available then try cmd by navigating to bin path:
 Solution:  mongod --storageEngine=mmapv1 --dbpath c:\data
