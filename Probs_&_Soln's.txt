@@ -1,0 +1,9 @@
+1)Installing mongo
+Error: Cannot start server. The default storage engine 'wiredTiger' is not available then try cmd by navigating to bin path:
+Solution:  mongod --storageEngine=mmapv1 --dbpath c:\data
+------------------------------------------------------------------------------------------------
+To set path of data to be stored by mongo use command as:
+mongod --dbpath c:\data   ---- this is default
+mongod --dbpath d:\data   ---- this is user specified
+
+=====================================================================
