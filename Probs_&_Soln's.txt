@@ -7,3 +7,28 @@ mongod --dbpath c:\data   ---- this is default
 mongod --dbpath d:\data   ---- this is user specified
 
 =====================================================================
+
+2)nginx commands and issues
+
+//to start nginx
+start nginx
+
+// to see nginx processes
+tasklist /fi "imagename eq nginx.exe"
+
+//fast shutdown
+nginx -s stop
+
+//graceful shutdown
+nginx -s quit
+
+//changing configuration, starting new worker processes with a new configuration, graceful shutdown of old worker processes
+nginx -s reload
+
+//if getting following error, then go to the directory where nginx is installed and open cmd from that path
+nginx: [alert] could not open error log file: CreateFile() "logs/error.log" fail
+ed (3: The system cannot find the path specified)
+2016/11/10 13:26:12 [emerg] 5500#5328: CreateFile() "C:\Users\baburao_parab/conf
+/nginx.conf" failed (3: The system cannot find the path specified)
+
+==========================================================================
