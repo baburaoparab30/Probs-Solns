@@ -32,3 +32,23 @@ ed (3: The system cannot find the path specified)
 /nginx.conf" failed (3: The system cannot find the path specified)
 
 ==========================================================================
+
+3).Error:
+{
+  "message": "Cannot resolve the configured swagger-router handler: movies_index"
+}
+Solution: in routes=>controllers check spelling of exports
+              -change module.export to module.exports
+
+===========================================================================================
+
+4).Installing xampp
+--Apache or Mysql throwing error of shutdown or some port blocked error then,
+   ==Change the port by clicking config button and then slecting respective file.
+
+--If taking long tome to start and not throwing any error then,
+   ==Click on shell cmd on right side and enter following command to check what is the error
+       --Type ap and then hit two tabs=>>>for checking apache
+       --Type my and then hit two tabs=>>>for checking apache
+
+====================================================================================================
