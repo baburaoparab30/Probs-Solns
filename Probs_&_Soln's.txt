@@ -52,3 +52,13 @@ Solution: in routes=>controllers check spelling of exports
        --Type my and then hit two tabs=>>>for checking apache
 
 ====================================================================================================
+5).Set and unset proxies for npm
+
+//set proxy to null
+npm config set http-proxy null
+
+//list proxies
+npm config list
+
+//set proxy to empty
+npm config set http-proxy ""
