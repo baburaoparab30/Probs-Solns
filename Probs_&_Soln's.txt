@@ -66,6 +66,6 @@ npm config set http-proxy ""
 6).npm
 
 //to clear installed packages
-npm cache clear
+npm cache clean
 
 then fire npm install
