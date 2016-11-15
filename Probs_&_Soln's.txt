@@ -62,3 +62,10 @@ npm config list
 
 //set proxy to empty
 npm config set http-proxy ""
+===============================================================================================
+6).npm
+
+//to clear installed packages
+npm cache clear
+
+then fire npm install
