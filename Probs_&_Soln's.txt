@@ -31,3 +31,19 @@ Solution: in routes=>controllers check spelling of exports
    ==Click on shell cmd on right side and enter following command to check what is the error
        --Type ap and then hit two tabs=>>>for checking apache
        --Type my and then hit two tabs=>>>for checking apache
+
+=================================================================================
+
+5)Issues with JDK and elasticsearch
+Error: Picked up _JAVA_OPTIONS: -Xmx512M Error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size
+    OR  Error occurred during initialization of VM Could not reserve enough space for 2097152KB object heap 
+
+Solution:
+    Go to Start->Control Panel->System->Advanced(tab)->Environment Variables->System
+
+Variables->New:
+Variable name: _JAVA_OPTIONS   
+Variable value: -Xms128m -Xmx128m
+
+Variable name: Path  
+Variable value: ;C:\Program Files\Java\jre6\bin;F:\JDK\bin;
